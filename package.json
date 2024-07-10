@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan4te/dz-workspace.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Dan4te",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan4te/dz-workspace/issues"
+  },
+  "homepage": "https://github.com/Dan4te/dz-workspace#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@eslint/js": "^9.6.0",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
